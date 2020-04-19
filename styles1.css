@@ -829,7 +829,7 @@ nav ul{
 
 .dd{
   width: 100%;
-  height: 210vh;
+  height: 220vh;
   background: rgb(243, 243, 241);
 }
 
@@ -939,7 +939,7 @@ nav ul{
 }
 
 .r1{
-  top: 625vh;
+  top: 635vh;
   position: absolute; 
   width: 100%;
   text-align: center;
@@ -953,7 +953,7 @@ nav ul{
   margin-bottom: 5rem;
 }
 .r2{
-  top: 645vh;
+  top: 655vh;
   position: absolute; 
   width: 100%;
 }
@@ -1157,7 +1157,7 @@ a{
 }
 
 .ar1{
-  top: 1070vh;
+  top: 1080vh;
 }
 
 .footer{
@@ -1280,6 +1280,9 @@ a{
   border-radius: 50%;
 }
 
+
+
+
 @media only screen and (max-width:1114px) {
 
     
@@ -1295,6 +1298,17 @@ a{
   .mb2 {
     top: 505vh;
   }
+  .r1{
+    top: 705vh;
+
+}
+
+.r2{
+top:725vh ;
+}
+.ar1{
+  top:1150vh
+}
   
 }
 
@@ -1309,21 +1323,37 @@ a{
         display: flex;
         justify-content:space-evenly;
         width:80%;
-    }   
+    }  
+    .ss1{
+      font-size:2.3rem ;
+    } 
   }
   @media only screen and (max-width: 1000px) {
     .card {
-      grid-column-end: span 4;
+      grid-column-end: span 6;
     }
-    .dd{
-      width: 100%;
-      height: 370vh;
+
+     .dd{
+       height: 380vh;
+     }
+    
+    .r1{
+      top: 860vh;
     }
+    .r2{
+      top: 880vh;
+    }
+.ar1{
+  top: 1310vh;
+}
+    
   }
 @media only screen and (max-width:954px) {
   .ss1 ,.ss2{
+
     top: 255vh;
   }
+
   .bb{
     width: 100%;
     height: 140vh;
@@ -1334,7 +1364,19 @@ a{
   .mb2 {
     top: 545vh;
   }
-  }
+  .r1{
+    top: 905vh;
+}
+
+.r2{
+top:925vh;
+}
+.ar1{
+  top: 1350vh;
+}
+}
+
+
   @media screen and (max-width:868px){
     .menu-wrapper{
         display: block;  
@@ -1345,10 +1387,7 @@ a{
        position: absolute;
        right: -100%;
     }
-    
-    
-    
-    
+       
   
     .ls1{
       font-size: 35px;
@@ -1364,7 +1403,12 @@ a{
   {
     .cc{
       width: 100%;
-      height: 470vh;
+      height: 480vh;
+    }
+
+    .dd{
+      width: 100%;
+      height: 330vh;
     }
     .mb1  {
       top: 730vh;
@@ -1372,7 +1416,18 @@ a{
     .mb2 {
       top: 750vh;
     }
+    .r1{
+      top: 1070vh;
   
+  }
+  
+  .r2{
+  top:1090vh ;
+  }
+  
+  .ar1{
+    top: 1510vh;
+  }
   }
 
 
@@ -1382,7 +1437,7 @@ a{
       grid-gap: 20px;
     }
     .card {
-      grid-column-end: span 12;
+      grid-column-end: span 6;
     }
     .card-wrapper3{
       flex-direction: row;
@@ -1407,7 +1462,7 @@ a{
     .ls2{
       font-size: 18px;
     }
-  
+    
   }
   
   @media only screen and (max-width:639px)
@@ -1420,7 +1475,25 @@ a{
     .ss1 ,.ss2{
       top: 315vh;
   }
+  
+  
 
+.mb1  {
+  top: 800vh;
+}
+.mb2 {
+  top: 820vh;
+}
+.r1{
+  top: 1125vh;
+
+}
+.r2{
+top:1155vh ;
+}
+.ar1{
+  top: 1570vh;
+}
 }
 
 
@@ -1437,7 +1510,7 @@ a{
     grid-gap: 10px;
   }
   .cards {
-    grid-column: 2 / span 6;
+    grid-column: 2 / span 8;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 20px;
   }
@@ -1453,6 +1526,20 @@ a{
   }
   .footer-items{
     width: 100%;
+  }
+
+  .dd{
+    height: 730vh;
+  }
+  .r1{
+    top: 1525vh;
+  }
+  .r2{
+    top: 1555vh;
+  }
+
+  .ar1{
+    top: 1970vh;
   }
 }
 
