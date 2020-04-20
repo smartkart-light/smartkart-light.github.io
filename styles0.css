@@ -26,21 +26,41 @@ body{
 .btn1{
     color: white;
     font-size: 9rem;
-    margin-left: 10rem;
+    
 }
 
 .btn2{
     color: rgb(12, 12, 12);
     font-size: 9rem;
-    margin-left: 10rem;
+    
 }
 
 
 .btn{
-    width: 70%;
+    width: 80%;
     height: 50vh;
-    margin-left: 10rem;
+    margin: auto;
+    justify-items: center;
     
+    align-content: center;
     border-radius: 50%;
     background-color: rgba(0, 255, 13, 0.37);
+}
+
+
+@media only  screen and (max-width: 898px)
+{
+    .btn1{
+        font-size: 6rem;
+    }
+    .btn2{
+        font-size: 6rem;
+    }
+
+    .t1{
+        font-size: 2rem;
+    }
+    .rainbow-text{
+        font-size: 7rem;
+    }
 }
