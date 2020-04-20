@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+body{
+    background: url(images/60.jpg);
+}
+
+.t1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rainbow-text {
+    font-size: 9rem;
+    text-align: center;
+    background-image: linear-gradient(to left,violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.btn1{
+    color: white;
+    font-size: 9rem;
+    margin-left: 10rem;
+}
+
+.btn2{
+    color: rgb(12, 12, 12);
+    font-size: 9rem;
+    margin-left: 10rem;
+}
+
+
+.btn{
+    width: 70%;
+    height: 50vh;
+    margin-left: 10rem;
+    
+    border-radius: 50%;
+    background-color: rgba(0, 255, 13, 0.37);
+}
