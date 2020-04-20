@@ -389,12 +389,7 @@ div svg{
     justify-content: space-evenly;
   }
 
-  .menu ul li:hover
-  {
-   
-    border-bottom: 6px solid rgb(4, 134, 255);
-
-  }
+  
 
   .menu-wrapper .toggle:checked + .hamburger + .menu{
     opacity: 1;
@@ -422,13 +417,13 @@ nav{
     z-index: 1000;
 }
 
-nav ul li {
+nav ul li a {
     
     padding: 10px 13px;
     border-radius: 10px;
     
 }
-nav ul li:hover{
+nav ul li a:hover{
     
     background-color: rgba(39, 255, 10, 0.712);
     border-radius: 30px;
