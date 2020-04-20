@@ -26,7 +26,7 @@ body{
 .btn1{
     color: white;
     font-size: 9rem;
-    
+    margin: inherit;
 }
 
 .btn2{
@@ -40,9 +40,9 @@ body{
     width: 80%;
     height: 50vh;
     margin: auto;
-    justify-items: center;
     
-    align-content: center;
+    text-align: center;
+    
     border-radius: 50%;
     background-color: rgba(0, 255, 13, 0.37);
 }
