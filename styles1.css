@@ -3,10 +3,7 @@
     padding: 0px; 
 }
 
-html{
-    scroll-behavior: smooth;
-   
-}
+
 
 
 
@@ -925,6 +922,12 @@ nav ul{
   align-items: center;
 }
 
+.button{
+  color: #30f100;
+  background-color: #f50505;
+  
+}
+
 .card__price {
   margin-left: auto;
   padding: 5px 20px;
@@ -1271,7 +1274,7 @@ a{
   height: 50px;
   background: #27ae60;
   bottom: 40px;
-  right: 50px;
+  right: 40px;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
@@ -1280,6 +1283,20 @@ a{
   border-radius: 50%;
 }
 
+.gotopbtn1{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 100px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 26px;
+  border-radius: 50%;
+}
 
 
 
@@ -1522,17 +1539,17 @@ top:1155vh ;
   }
 
   .dd{
-    height: 730vh;
+    height: 710vh;
   }
   .r1{
-    top: 1525vh;
+    top: 1505vh;
   }
   .r2{
-    top: 1555vh;
+    top: 1535vh;
   }
 
   .ar1{
-    top: 1970vh;
+    top: 1950vh;
   }
 }
 
