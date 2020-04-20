@@ -17,14 +17,14 @@ body{
 .rainbow-text {
     font-size: 9rem;
     text-align: center;
-    background-image: linear-gradient(to left,violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
 
 .btn1{
-    color: white;
+    color: rgb(238, 255, 0);
     font-size: 9rem;
     margin: inherit;
 }
@@ -40,7 +40,7 @@ body{
     width: 80%;
     height: 50vh;
     margin: auto;
-    
+    align-items: center;
     text-align: center;
     
     border-radius: 50%;
