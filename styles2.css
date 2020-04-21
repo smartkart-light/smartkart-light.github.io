@@ -12,7 +12,9 @@ img{
   filter: invert(100%);
 }
 
-
+body{
+  cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1158.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1158.png), auto !important;
+}
 
 
 div svg{
