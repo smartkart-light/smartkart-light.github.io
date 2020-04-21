@@ -227,7 +227,7 @@ div svg{
     scrollbar-shadow-color: lawngreen;
     font-family: sans-serif;
     word-spacing: 0.1em;
-   
+    cursor: url(http://cur.cursors-4u.net/holidays/hol-6/hol509.ani), url(http://cur.cursors-4u.net/holidays/hol-6/hol509.png), auto !important;
     animation: anima 1.5s linear 5;
     text-shadow: 3px 3px 1px rgb(0, 255, 0);
 }
@@ -1311,6 +1311,7 @@ a{
   color: white;
   font-size: 26px;
   border-radius: 50%;
+  cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1100.ani), url(http://ani.cursors-4u.net/cursors/cur-12/cur1100.png), auto !important;
 }
 
 
