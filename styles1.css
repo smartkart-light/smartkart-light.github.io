@@ -688,7 +688,7 @@ nav ul{
   transform: perspective(2000px);
   transition: 1s;
   box-shadow: inset 300px 0 50px rgba(0,0,0,0.5);
-
+  cursor: url(http://cur.cursors-4u.net/holidays/hol-6/hol512.ani), url(http://cur.cursors-4u.net/holidays/hol-6/hol512.png), auto !important;
 }
 .card0:hover{
   z-index: 990;
