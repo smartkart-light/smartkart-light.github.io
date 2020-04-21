@@ -840,7 +840,8 @@ nav ul{
 .dd{
   width: 100%;
   height: 220vh;
-  background: url(images/48.jpg)
+  background: url(images/48.jpg);
+  
 }
 
 .mb1{
@@ -857,6 +858,7 @@ nav ul{
   text-decoration-color: red;
 }
 .mb2{
+  
   top: 435vh;
   position: absolute; 
   width: 100%;
@@ -884,6 +886,7 @@ nav ul{
 }
 
 .cards {
+  
   grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(12, minmax(auto, 60px));
@@ -892,6 +895,7 @@ nav ul{
 }
 
 .card {
+  cursor: url(http://cur.cursors-4u.net/games/gam-10/gam985.cur), auto !important;
   grid-column-end: span 4;
   display: flex;
   flex-direction: column;
