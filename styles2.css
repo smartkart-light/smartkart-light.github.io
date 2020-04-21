@@ -425,18 +425,28 @@ nav{
 
 nav ul li a {
     
-    padding: 10px 13px;
-    border-radius: 10px;
-    
+  padding: 10px 13px;
+  border-radius: 10px;
+  
 }
-nav ul li a:hover{
-    
-    background-color: rgba(39, 255, 10, 0.712);
-    border-radius: 30px;
-    transition: 0.5s;
-    border-bottom: 6px solid rgb(255, 209, 4);
+nav ul li{
+text-align: center;
+padding: 10px 13px;
+border-radius: 10px;
+
+}
+nav ul li a:hover{  
+  border-radius: 30px;
+  transition: 0.5s;
+  border-bottom: 6px;
 }
 
+nav ul li:hover{
+background-color: rgb(39, 255, 10);
+border-radius: 30px;
+transition: 0.5s;
+border-bottom: 6px solid rgb(255, 209, 4);
+}
 
 .logo img{
   position: fixed;
