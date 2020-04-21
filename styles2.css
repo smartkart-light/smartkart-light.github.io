@@ -894,6 +894,7 @@ nav ul{
 }
 
 .card {
+  cursor: url(http://cur.cursors-4u.net/games/gam-10/gam985.cur), auto !important;
   grid-column-end: span 4;
   display: flex;
   flex-direction: column;
