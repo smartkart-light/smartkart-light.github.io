@@ -400,7 +400,6 @@ div svg{
     opacity: 1;
     width: 100vw;
     height: 100vh;
-
   }
   
   .menu a{
@@ -486,7 +485,6 @@ nav ul{
 .ls{
     width: 100%;
     height: 30vh;
-    
     background-size: cover;
     align-items: center;
     background-position: center;
