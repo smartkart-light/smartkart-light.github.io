@@ -182,14 +182,14 @@ div svg{
 @keyframes anima
 {
     0%,100%{
-      color: #fff;
+      color: rgb(225, 0, 255);
       filter: blur(1px);
       
                    
 }
     5%,55%
     {
-        color: #111;
+        color: rgb(1, 255, 22);
         filter: blur(0px);
         text-shadow: 0 0 10px none;
     }
@@ -221,12 +221,12 @@ div svg{
     color: rgb(255, 0, 0);
     text-shadow: 3px 3px 3px ;
     text-shadow :2;
-    scrollbar-shadow-color: lawngreen;
+    scrollbar-shadow-color: rgb(255, 0, 0);
     font-family: sans-serif;
     word-spacing: 0.1em;
     cursor: url(http://cur.cursors-4u.net/holidays/hol-6/hol509.ani), url(http://cur.cursors-4u.net/holidays/hol-6/hol509.png), auto !important;
-    animation: anima 1.5s linear 5;
-    text-shadow: 3px 3px 1px rgb(0, 255, 0);
+    animation: anima 1.5s linear infinite;
+    text-shadow: 3px 3px 1px rgb(255, 0, 0);
 }
 
 .headin span{
